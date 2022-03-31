@@ -7,9 +7,10 @@
 	const image = null
 	const url = "https://sveltekit-template.ronnapat.me/"
 	const twitter = "ronnapatp"
+	const keyword = "sveltekit"
 </script>
 
-<Meta title={title} description={description} image={image} url={url} twitter={`@${twitter}`} />
+<Meta title={title} description={description} image={image} url={url} twitter={`@${twitter}`} keyword={keyword} />
 
 <main>
 	<slot />
